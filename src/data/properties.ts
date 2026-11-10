@@ -1,3 +1,7 @@
+import propertyApartment from '../assets/images/property_modern_apartment_1794310019580.jpg';
+import propertyOffice from '../assets/images/property_commercial_office_1794310018939.jpg';
+import heroImage from '../assets/images/hero_realestate_schwerte_1794310019376.jpg';
+
 export interface Property {
   id: string;
   title: string;
@@ -50,10 +54,10 @@ export const PROPERTIES: Property[] = [
     energyClass: 'A',
     energyValue: 42.5,
     heatingType: 'Fernwärme / Fußbodenheizung',
-    mainImage: '/src/assets/images/property_modern_apartment_1794310019580.jpg',
+    mainImage: propertyApartment,
     gallery: [
-      '/src/assets/images/property_modern_apartment_1794310019580.jpg',
-      '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
+      propertyApartment,
+      heroImage,
     ],
     features: [
       'Großer Süd-Balkon mit Weitblick',
@@ -90,10 +94,10 @@ export const PROPERTIES: Property[] = [
     energyClass: 'B',
     energyValue: 68.0,
     heatingType: 'Zentralheizung / Wärmepumpe mit Deckenklimatisierung',
-    mainImage: '/src/assets/images/property_commercial_office_1794310018939.jpg',
+    mainImage: propertyOffice,
     gallery: [
-      '/src/assets/images/property_commercial_office_1794310018939.jpg',
-      '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
+      propertyOffice,
+      heroImage,
     ],
     features: [
       'Bodentiefe Schaufensterfront zur Bahnhofstraße',
@@ -130,10 +134,10 @@ export const PROPERTIES: Property[] = [
     energyClass: 'A+',
     energyValue: 28.4,
     heatingType: 'Sole-Wasser-Wärmepumpe mit Solarthermie',
-    mainImage: '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
+    mainImage: heroImage,
     gallery: [
-      '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
-      '/src/assets/images/property_modern_apartment_1794310019580.jpg',
+      heroImage,
+      propertyApartment,
     ],
     features: [
       'Niedrigenergiestandard KfW 40 Plus',
@@ -169,10 +173,10 @@ export const PROPERTIES: Property[] = [
     energyClass: 'A',
     energyValue: 38.0,
     heatingType: 'Pellet-Heizung & Fußbodenheizung',
-    mainImage: '/src/assets/images/property_modern_apartment_1794310019580.jpg',
+    mainImage: propertyApartment,
     gallery: [
-      '/src/assets/images/property_modern_apartment_1794310019580.jpg',
-      '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
+      propertyApartment,
+      heroImage,
     ],
     features: [
       'Schlüsselloser Aufzug direkt in das Wohnungsvoyer',
@@ -208,10 +212,10 @@ export const PROPERTIES: Property[] = [
     energyClass: 'A',
     energyValue: 45.0,
     heatingType: 'Gas-Brennwert mit Solarunterstützung',
-    mainImage: '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
+    mainImage: heroImage,
     gallery: [
-      '/src/assets/images/hero_realestate_schwerte_1794310019376.jpg',
-      '/src/assets/images/property_modern_apartment_1794310019580.jpg',
+      heroImage,
+      propertyApartment,
     ],
     features: [
       'Alleiniges Sondernutzungsrecht am sonnigen Garten',
