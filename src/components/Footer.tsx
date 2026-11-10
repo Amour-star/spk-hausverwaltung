@@ -64,6 +64,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegal, onOpenContact, onOp
                 </a>
               </li>
               <li>
+                <a href="#referenzen" className="hover:text-white transition-colors">
+                  Google-Rezensionen (4,2 ★)
+                </a>
+              </li>
+              <li>
                 <a href="#oeffnungszeiten" className="hover:text-white transition-colors">
                   Öffnungszeiten & Anfahrt
                 </a>

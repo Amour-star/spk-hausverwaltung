@@ -11,6 +11,7 @@ import { PropertyListings } from './components/PropertyListings';
 import { ServicesSection } from './components/ServicesSection';
 import { OpeningHoursLocation } from './components/OpeningHoursLocation';
 import { ContactSection } from './components/ContactSection';
+import { TestimonialsSection } from './components/TestimonialsSection';
 import { TenantPortalModal } from './components/TenantPortalModal';
 import { LegalModal } from './components/LegalModals';
 import { Footer } from './components/Footer';
@@ -82,9 +83,12 @@ export default function App() {
           initialInquiryType={inquiryType}
           selectedPropertyTitle={selectedPropertyTitle}
         />
+
+        {/* 8. Feedback from Property Owners and Tenants */}
+        <TestimonialsSection />
       </main>
 
-      {/* 8. Footer */}
+      {/* 9. Footer */}
       <Footer
         onOpenLegal={(type) => setLegalModalType(type)}
         onOpenContact={handleOpenContact}

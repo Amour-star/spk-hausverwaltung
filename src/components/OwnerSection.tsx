@@ -34,14 +34,9 @@ export const OwnerSection: React.FC<OwnerSectionProps> = ({ onOpenContact }) => 
               <div className="relative rounded-xl overflow-hidden bg-slate-100 shadow-md border border-slate-200">
                 <img
                   src={owner.image}
-                  alt={`Hüseyin Zafer, Geschäftsführer der SPK-Hausverwaltung GmbH`}
-                  className="w-full h-auto object-cover object-top aspect-[3/4]"
+                  alt="Hüseyin Zafer, Geschäftsführer der SPK-Hausverwaltung GmbH"
+                  className="w-full h-auto object-cover object-[center_20%] aspect-[3/4]"
                   referrerPolicy="no-referrer"
-                  onError={(e) => {
-                    // Fallback container
-                    const target = e.target as HTMLElement;
-                    target.style.display = 'none';
-                  }}
                 />
                 
                 {/* Subtle bottom gradient label */}

@@ -18,7 +18,7 @@ export const COMPANY_DETAILS = {
     linkedinUrl: 'https://www.linkedin.com/search/results/all/?keywords=H%C3%BCseyin%20Zafer%20SPK-Hausverwaltung',
     bio: 'Als Gründer und geschäftsführender Gesellschafter der SPK-Hausverwaltung GmbH steht Hüseyin Zafer für nachhaltigen Werterhalt, persönliche Betreuung und transparente Immobilienbewirtschaftung im Kreis Unna, Dortmund und dem Ruhrgebiet.',
     quote: '„Eine Immobilie ist mehr als Stein und Mörtel – sie ist ein wertvolles Lebens- und Anlagegut. Wir verwalten jedes Objekt so sorgfältig und vorausschauend, als wäre es unser eigenes.“',
-    image: '/src/assets/images/huseyin_zafer_owner_1794310018805.jpg',
+    image: '/src/assets/images/huseyin_zafer_original.jpg',
   },
   address: {
     street: 'Bahnhofstraße 1',
