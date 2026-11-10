@@ -1,0 +1,6 @@
+{
+  "name": "SPK-Hausverwaltung GmbH",
+  "description": "Offizielle Website der SPK-Hausverwaltung GmbH in Schwerte – Professionelle Hausverwaltung, Mietobjekte & Gewerbeflächen unter Leitung von Geschäftsführer Hüseyin Zafer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
