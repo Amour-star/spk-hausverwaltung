@@ -15,7 +15,7 @@ export const COMPANY_DETAILS = {
     role: 'Geschäftsführer & Gründer',
     title: 'Zertifizierter Verwalter nach § 26a WEG & Immobilienfachwirt',
     experienceYears: 18,
-    linkedinUrl: 'https://www.linkedin.com/search/results/all/?keywords=H%C3%BCseyin%20Zafer%20SPK-Hausverwaltung',
+    linkedinUrl: 'https://de.linkedin.com/in/h%C3%BCseyin-zafer-a92b1a299',
     bio: 'Als Gründer und geschäftsführender Gesellschafter der SPK-Hausverwaltung GmbH steht Hüseyin Zafer für nachhaltigen Werterhalt, persönliche Betreuung und transparente Immobilienbewirtschaftung im Kreis Unna, Dortmund und dem Ruhrgebiet.',
     quote: '„Eine Immobilie ist mehr als Stein und Mörtel – sie ist ein wertvolles Lebens- und Anlagegut. Wir verwalten jedes Objekt so sorgfältig und vorausschauend, als wäre es unser eigenes.“',
     image: '/src/assets/images/huseyin_zafer_original.jpg',
