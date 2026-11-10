@@ -1,6 +1,7 @@
 import React from 'react';
 import { Building2, ShieldCheck, PhoneCall, ChevronRight, MapPin, Award } from 'lucide-react';
 import { COMPANY_DETAILS } from '../data/company';
+import heroImage from '../assets/images/hero_realestate_schwerte_1794310019376.jpg';
 
 interface HeroProps {
   onOpenContact: (type?: string) => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
       {/* Background with measured contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_realestate_schwerte_1794310019376.jpg"
+          src={heroImage}
           alt="Moderne Wohnimmobilien in Schwerte betreut von SPK-Hausverwaltung"
           className="w-full h-full object-cover object-center brightness-75 filter"
           referrerPolicy="no-referrer"
